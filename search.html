@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="public/font-awesome.min.css">
+    <link rel="stylesheet" href="public/chosen.min.css">
+
+    <link rel="stylesheet" href="public/bxslider.css">
+    <link rel="stylesheet" href="public/sprite.css">
+
+    <link rel="stylesheet" href="public/ion.rangeSlider.css">
+    <link rel="stylesheet" href="public/ion.rangeSlider.skinFlat.css">
+
+    <link rel="stylesheet" href="public/main.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="inner">
+            <a href="#" class="logo-small-thin"></a>
+            <div class="user-nav">
+                <div class="user-nav__item">
+                    <a href="#" class="btn btn_transparent btn_rounded btn_entrance"><i class="icon-entrance-small"></i> Войти</a>
+                </div>
+                <div class="user-nav__item">
+                        <span class="lang-dropdown js-dropdown-list">
+                            <span class="btn btn_transparent btn_rounded js-btn-dropdown">Eng <i class="fa fa-angle-down"></i></span>
+                            <ul class="lang-dropdown__list">
+                                <li class="lang-dropdown__item"><a href="#">Ua</a></li>
+                                <li class="lang-dropdown__item"><a href="#">De</a></li>
+                            </ul>
+                        </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <section class="white">
+            <div class="inner">
+                <ol class="breadcrumb">
+                    <li><a href="#">Главная</a> <i class="fa fa-angle-right"></i></li>
+                    <li class="active">Поиск</li>
+                </ol>
+
+                <div class="select-car select-car_big">
+                    <ul class="select-car__options">
+                        <li class="select-car__item">
+                            <div class="select-car__title">По цене (в сутки)</div>
+
+                            <div class="select-wrap">
+                                <input type="text" id="price-range" name="price-per-day" value="" />
+                            </div>
+                        </li>
+                        <li class="select-car__item">
+                            <div class="select-car__title">Город</div>
+                            <div class="select-wrap icon-map-pointer-red">
+                                <select class="chosen-select">
+                                    <option>2Москва</option>
+                                    <option>Санкт-Петербург</option>
+                                    <option>Челябинск</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="select-car__item">
+                            <div class="select-car__title">Производительность</div>
+                            <div class="select-wrap">
+                                <select class="chosen-select">
+                                    <option>Спорткар</option>
+                                    <option>Премиум</option>
+                                    <option>Седан</option>
+                                </select>
+                            </div>
+
+                        </li>
+                        <li class="select-car__item">
+                            <div class="select-car__title">Клас машин</div>
+                            <div class="select-wrap">
+                                <select class="chosen-select">
+                                    <option>BMW</option>
+                                    <option>Ferrari</option>
+                                    <option>Kia</option>
+                                </select>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="car-list">
+                    <li class="car-list__item">
+
+                        <div class="car-booking-prev">
+
+                            <div class="car-booking-prev__list">
+                                <ul class="js-car-list-small">
+                                    <li><a href="#"><img src="http://placehold.it/237x237" alt=""></a></li>
+                                    <li><a href="#"><img src="http://placehold.it/237x237" alt=""></a></li>
+                                    <li><a href="#"><img src="http://placehold.it/237x237" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="car-booking-prev__content">
+                                <span class="car-booking-prev__name">Porshe Panamera</span>
+                                <span class="car-booking-prev__type">Спорткар</span>
+
+                                <ul class="car-property">
+                                    <li class="car-property__item">
+                                        <div class="car-property__content">
+                                            <span class="left">Пассажирских мест:</span>
+                                            <span class="right"><i class="red-circle"></i></span>
+                                        </div>
+                                    </li>
+                                    <li class="car-property__item">
+                                        <div class="car-property__content">
+                                            <span class="left">Объем двигателя:</span>
+                                            <span class="right">3240 см<sup>3</sup></span>
+                                        </div>
+                                    </li>
+                                    <li class="car-property__item">
+                                        <div class="car-property__content">
+                                            <span class="left">Разгон до 100 км/ч:</span>
+                                            <span class="right">4,9 сек.</span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="price">130<sup>€</sup></div>
+
+                                <a href="#" class="btn btn_booking">
+                                    <span class="icon-wrap"><i class="icon-btn-booking"></i></span>
+                                    Забронировать
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                    <li class="car-list__item">
+
+                        <div class="car-booking-prev">
+
+                            <div class="car-booking-prev__list">
+                                <ul class="js-car-list-small">
+                                    <li><a href="#"><img src="http://placehold.it/237x237" alt=""></a></li>
+                                    <li><a href="#"><img src="http://placehold.it/237x237" alt=""></a></li>
+                                    <li><a href="#"><img src="http://placehold.it/237x237" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="car-booking-prev__content">
+                                <span class="car-booking-prev__name">Porshe Panamera</span>
+                                <span class="car-booking-prev__type">Спорткар</span>
+
+                                <ul class="car-property">
+                                    <li class="car-property__item">
+                                        <div class="car-property__content">
+                                            <span class="left">Пассажирских мест:</span>
+                                            <span class="right"><i class="red-circle"></i></span>
+                                        </div>
+                                    </li>
+                                    <li class="car-property__item">
+                                        <div class="car-property__content">
+                                            <span class="left">Объем двигателя:</span>
+                                            <span class="right">3240 см<sup>3</sup></span>
+                                        </div>
+                                    </li>
+                                    <li class="car-property__item">
+                                        <div class="car-property__content">
+                                            <span class="left">Разгон до 100 км/ч:</span>
+                                            <span class="right">4,9 сек.</span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="price">130<sup>€</sup></div>
+
+                                <a href="#" class="btn btn_booking">
+                                    <span class="icon-wrap"><i class="icon-btn-booking"></i></span>
+                                    Забронировать
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                    <li class="car-list__item">
+
+                        <div class="car-booking-prev">
+
+                            <div class="car-booking-prev__list">
+                                <ul class="js-car-list-small">
+                                    <li><a href="#"><img src="http://placehold.it/237x237" alt=""></a></li>
+                                    <li><a href="#"><img src="http://placehold.it/237x237" alt=""></a></li>
+                                    <li><a href="#"><img src="http://placehold.it/237x237" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="car-booking-prev__content">
+                                <span class="car-booking-prev__name">Porshe Panamera</span>
+                                <span class="car-booking-prev__type">Спорткар</span>
+
+                                <ul class="car-property">
+                                    <li class="car-property__item">
+                                        <div class="car-property__content">
+                                            <span class="left">Пассажирских мест:</span>
+                                            <span class="right"><i class="red-circle"></i></span>
+                                        </div>
+                                    </li>
+                                    <li class="car-property__item">
+                                        <div class="car-property__content">
+                                            <span class="left">Объем двигателя:</span>
+                                            <span class="right">3240 см<sup>3</sup></span>
+                                        </div>
+                                    </li>
+                                    <li class="car-property__item">
+                                        <div class="car-property__content">
+                                            <span class="left">Разгон до 100 км/ч:</span>
+                                            <span class="right">4,9 сек.</span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="price">130<sup>€</sup></div>
+
+                                <a href="#" class="btn btn_booking">
+                                    <span class="icon-wrap"><i class="icon-btn-booking"></i></span>
+                                    Забронировать
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="paginator">
+                    <span class="btn btn_paginator">
+                        <i class="icon-add-paginator"></i>
+                        Показать еще
+                    </span>
+                    <div class="paginator__list">
+                        <a href="#" class="paginator__link active">1</a>
+                        <a href="#" class="paginator__link">2</a>
+                        <a href="#" class="paginator__link">3</a>
+                        <a href="#" class="paginator__link"><i class="icon-arrow-right-small-black"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+</div>
+<footer>
+    <div class="inner">
+        <div class="row">
+            <div class="left">
+                <a href="#" class="logo"></a>
+                <a href="#" class="btn btn_transparent btn_rounded btn_entrance"><i class="icon-entrance-small"></i> Войти</a>
+            </div>
+            <div class="right">
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row contacts">
+            <span class="btn btn_transparent btn_rounded">Обратная связь</span>
+            <span class="tel"><i class="fa fa-phone"></i>234 2342 23434</span>
+            <span class="email"><i class="fa fa-envelope"></i>mail@mail.com</span>
+            <span class="adr"><i class="fa fa-map-marker"></i>Австрия г. Вена, ул. Совина, д. 87/2 п. 11</span>
+        </div>
+    </div>
+</footer>
+
+<div style="background-color: #000;">erer
+<i class="icon-arrow-left-white-small"></i>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="public/js/jquery-2.1.4.min.js"><\/script>')</script>
+<script src="public/js/chosen.jquery.min.js"></script>
+<script src="public/js/jquery.vide.min.js"></script>
+<script src="public/js/ion.rangeSlider.min.js"></script>
+<script src="public/js/jquery.bxslider.min.js"></script>
+<script src="public/js/project.js"></script>
+
+<script>
+
+    $("#price-range").ionRangeSlider({
+        type: "double",
+        min: 100,
+        max: 2000,
+        from: 100,
+        to: 1200,
+        step: 100,
+        onStart: function (data) {
+//            console.log(data);
+        },
+        onChange:  function (data) {
+//            console.log(data);
+        },
+        onFinish: function (data) {
+//            console.log(data);
+        },
+        onUpdate:  function (data) {
+//            console.log(data);
+        }
+    });
+
+
+
+</script>
+
+
+</body>
+</html>

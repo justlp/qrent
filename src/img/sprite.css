@@ -1,0 +1,180 @@
+.logo {
+    background: url(icons/logo.png) no-repeat 0 0;
+}
+.logo-small {
+    background: url(icons/logo-small.png) no-repeat 0 0;
+}
+.logo-small-thin {
+    background: url(icons/logo-small-thin.png) no-repeat 0 0;
+}
+.icon-entrance{
+    background: url(icons/icon-entrance.png) no-repeat 0 0;
+}
+.icon-entrance-small{
+    background: url(icons/icon-entrance-small.png) no-repeat 0 0;
+}
+.icon-pros-cars{
+    background: url(icons/more-100.png) no-repeat 0 0;
+}
+.icon-pros-command{
+    background: url(icons/team.png) no-repeat 0 0;
+}
+.icon-pros-location{
+    background: url(icons/map.png) no-repeat 0 0;
+}
+.icon-car-small-white{
+    background: url(icons/icon-car-small-white.png) no-repeat 0 0;
+}
+
+.app-store{
+    background: url(icons/appstore.png) no-repeat 0 0;
+}
+.google-play{
+    background: url(icons/google-play.png) no-repeat 0 0;
+}
+.order-date{
+    background: url(icons/date-bg.png) no-repeat 0 0;
+}
+.icon-add{
+    background: url(icons/icon-add.png) no-repeat 0 0;
+}
+.icon-add-paginator{
+    background: url(icons/icon-add-paginator.png) no-repeat 0 0;
+}
+.icon-edit{
+    background: url(icons/icon-edit.png) no-repeat 0 0;
+}
+.icon-menu{
+    background: url(icons/icon-menu.png) no-repeat 0 0;
+}
+.icon-remove{
+    background: url(icons/icon-remove.png) no-repeat 0 0;
+}
+.icon-remove-red-bg{
+    background: url(icons/icon-remove-red-bg.png) no-repeat 0 0;
+}
+.icon-btn-booking{
+    background: url(icons/icon-btn-booking.png) no-repeat 0 0;
+}
+
+
+/* index page
+section our park */
+.icon-car-type-business{
+    background: url(icons/icon-car-type-business_normal.png) no-repeat 0 0;
+}
+.car-type__link:hover .icon-car-type-business,
+.car-type__link:focus .icon-car-type-business{
+    background: url(icons/icon-car-type-business_active.png) no-repeat 0 0;
+}
+.icon-car-type-business_active{
+    background: url(icons/icon-car-type-business_active.png) no-repeat 0 0;
+}
+
+.icon-car-type-sedan{
+    background: url(icons/icon-car-type-sedan_normal.png) no-repeat 0 0;
+}
+.car-type__link:hover .icon-car-type-sedan,
+.car-type__link:focus .icon-car-type-sedan{
+    background: url(icons/icon-car-type-sedan_active.png) no-repeat 0 0;
+}
+.icon-car-type-sedan_active{
+    background: url(icons/icon-car-type-sedan_active.png) no-repeat 0 0;
+}
+
+.icon-car-type-sport{
+    background: url(icons/icon-car-type-sport_normal.png) no-repeat 0 0;
+}
+.car-type__link:hover .icon-car-type-sport,
+.car-type__link:focus .icon-car-type-sport{
+    background: url(icons/icon-car-type-sport_active.png) no-repeat 0 0;
+}
+.icon-car-type-sport_active{
+    background: url(icons/icon-car-type-sport_active.png) no-repeat 0 0;
+}
+.icon-car-type-outlander{
+    background: url(icons/icon-car-type-outlander_normal.png) no-repeat 0 0;
+}
+.car-type__link:hover .icon-car-type-outlander,
+.car-type__link:focus .icon-car-type-outlander{
+    background: url(icons/icon-car-type-outlander_active.png) no-repeat 0 0;
+}
+.icon-car-type-outlander_active{
+    background: url(icons/icon-car-type-outlander_active.png) no-repeat 0 0;
+}
+/* index page
+section our park */
+
+
+
+
+/*
+  Arrows
+*/
+
+/* for dropdown */
+.chosen-container-single.chosen-with-drop .chosen-single div b{
+    background: url(icons/icon-arrow-up-red.png) no-repeat 0 0;
+}
+.chosen-container-single .chosen-single div b{
+    background: url(icons/icon-arrow-down-red.png) no-repeat 0 0;
+}
+.icon-map-pointer-red .chosen-container-single .chosen-single div b{
+    background: url(icons/icon-map-pointer-red.png) no-repeat 0 0;
+}
+/* end for dropdown */
+
+/* default control for slider*/
+.bx-wrapper .bx-prev,
+.icon-arrow-left-big-gray{
+    background: url(icons/icon-arrow-left-big-gray_normal.png) no-repeat 0 0;
+}
+    .bx-wrapper .bx-prev:hover,
+    .icon-arrow-left-big-gray:hover{
+        background: url(icons/icon-arrow-left-big-gray_active.png) no-repeat 0 0;
+    }
+.bx-wrapper .bx-next,
+.icon-arrow-right-big-gray{
+    background: url(icons/icon-arrow-right-big-gray_normal.png) no-repeat 0 0;
+}
+    .bx-wrapper .bx-next:hover,
+    .icon-arrow-right-big-gray:hover{
+        background: url(icons/icon-arrow-right-big-gray_active.png) no-repeat 0 0;
+    }
+/* end default control for slider*/
+
+
+
+.car-slider .bx-wrapper .bx-prev:before,
+.icon-arrow-left-medium-white{
+    background: url(icons/icon-arrow-left-medium-white.png) no-repeat 0 0;
+}
+.car-slider .bx-wrapper .bx-next:before,
+.icon-arrow-right-medium-white{
+    background: url(icons/icon-arrow-right-medium-white.png) no-repeat 0 0;
+}
+
+
+
+
+.icon-arrow-left-small-black{
+    background: url(icons/icon-arrow-left-small-black.png) no-repeat 0 0;
+}
+.icon-arrow-right-small-black{
+    background: url(icons/icon-arrow-right-small-black.png) no-repeat 0 0;
+}
+
+
+
+.about-car .bx-wrapper .bx-next:before,
+.car-booking-prev .bx-wrapper .bx-prev:before,
+.icon-arrow-left-small-white{
+    background: url(icons/icon-arrow-left-small-white.png) no-repeat 0 0;
+}
+.about-car .bx-wrapper .bx-prev:before,
+.car-booking-prev .bx-wrapper .bx-next:before,
+.icon-arrow-right-small-white{
+    background: url(icons/icon-arrow-right-small-white.png) no-repeat 0 0;
+}
+
+

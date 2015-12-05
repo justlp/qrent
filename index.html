@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="public/font-awesome.min.css">
+    <link rel="stylesheet" href="public/chosen.min.css">
+    <link rel="stylesheet" href="public/ion.rangeSlider.css">
+    <link rel="stylesheet" href="public/ion.rangeSlider.skinFlat.css">
+    <link rel="stylesheet" href="public/bxslider.css">
+    <link rel="stylesheet" href="public/sprite.css">
+
+    <link rel="stylesheet" href="public/main.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="index-page">
+        <div class="inner">
+            <a href="#" class="logo"></a>
+
+            <div class="user-nav">
+                <div class="user-nav__item">
+                    <a href="#" class="btn btn_transparent btn_rounded btn_entrance"><i class="icon-entrance-small"></i> Войти</a>
+                </div>
+                <div class="user-nav__item">
+                        <span class="lang-dropdown js-dropdown-list">
+                            <span class="btn btn_transparent btn_rounded js-btn-dropdown">Eng <i class="fa fa-angle-down"></i></span>
+                            <ul class="lang-dropdown__list">
+                                <li class="lang-dropdown__item"><a href="#">Ua</a></li>
+                                <li class="lang-dropdown__item"><a href="#">De</a></li>
+                            </ul>
+                        </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content index">
+        <section class="index-top">
+            <div class="media-bg">
+                <div class="js-media-bg" style="width: 100%; height: 782px; position: absolute; top: 0; z-index: -1"></div>
+                <!--<img src="public/img/content/1.jpg" alt="" height="782px" width="1920px" class="top-bg">-->
+            </div>
+            <div class="inner">
+                <h1 class="index-top__title">Суперкары напрокат для тех,кто ценит роскошь и драйв</h1>
+
+                <p class="index-top__subtitle">QRENT – это эксклюзивные автомобили в аренду и первоклассный сервис 24/7
+                    куда бы вы не направлялись</p>
+
+                <div class="tab">
+                        <span class="tab__titles">
+                            <span class="tab__item js-tab">Я знаю какое авто хочу</span>
+                            <span class="tab__item js-tab active">Подобрать варианты</span>
+                        </span>
+
+                    <div class="tab__content">
+                        <div class="tab__item-content js-tab-content">
+                            <div class="select-car">
+                                <ul class="select-car__options">
+                                <li class="select-car__item">
+                                    <div class="select-wrap icon-map-pointer-red">
+                                        <select class="chosen-select">
+                                            <option>2Москва</option>
+                                            <option>Санкт-Петербург</option>
+                                            <option>Челябинск</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li class="select-car__item">
+                                    <div class="select-wrap">
+                                        <select class="chosen-select">
+                                            <option>Спорткар</option>
+                                            <option>Премиум</option>
+                                            <option>Седан</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li class="select-car__item">
+                                    <div class="select-wrap">
+                                        <select class="chosen-select">
+                                            <option>BMW</option>
+                                            <option>Ferrari</option>
+                                            <option>Kia</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li class="select-car__item">
+                                    <span class="btn btn_main">Рассчитать тариф</span>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="tab__item-content js-tab-content active">
+                            <div class="select-car">
+                                <ul class="select-car__options">
+                                    <li class="select-car__item">
+                                        <div class="select-wrap icon-map-pointer-red">
+                                            <select class="chosen-select">
+                                                <option>Москва</option>
+                                                <option>Санкт-Петербург</option>
+                                                <option>Челябинск</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li class="select-car__item">
+                                        <div class="select-wrap">
+                                            <select class="chosen-select">
+                                                <option>Спорткар</option>
+                                                <option>Премиум</option>
+                                                <option>Седан</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li class="select-car__item">
+                                        <div class="select-wrap">
+                                            <select class="chosen-select">
+                                                <option>BMW</option>
+                                                <option>Ferrari</option>
+                                                <option>Kia</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li class="select-car__item">
+                                        <span class="btn btn_main">Подобрать варианты</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- END .index-top-->
+
+        <section class="pros white">
+            <div class="inner">
+
+                <h2 class="pros__title">QRENT – Ваш личный менеджер по прокату автомобилей</h2>
+
+                <p class="pros__subtitle">Почему мы лучшие в своем сегменте</p>
+
+                <ul class="pros-list">
+                    <li class="pros-list__item">
+                        <span class="pros-list__icon icon-pros-cars"></span>
+                        <h4 class="pros-list__title">Большой автопарк</h4>
+
+                        <p class="pros-list__text">Мы предлагаем самый большой выбор элитных автомобилей. Более 100
+                            роскошных авто от мировых автомобильных брендов.</p>
+                    </li>
+                    <li class="pros-list__item">
+                        <span class="pros-list__icon icon-pros-command"></span>
+                        <h4 class="pros-list__title">Команда профессионалов</h4>
+
+                        <p class="pros-list__text">Четкая организация рабочего процесса позволяет нам гарантировать
+                            безупречное выполнение своих обязательств. Наши менеджеры всегда знают, как удовлетворить
+                            запросы даже самых требовательных клиентов.</p>
+                    </li>
+                    <li class="pros-list__item">
+                        <span class="pros-list__icon icon-pros-location"></span>
+                        <h4 class="pros-list__title">Оперативность и пунктуальность</h4>
+
+                        <p class="pros-list__text">Мы всегда пунктуальны и быстро доставим выбранный Вами суперкар в
+                            место назначения, где бы Вы ни были, и с полным баком горючего.</p>
+                    </li>
+                </ul> <!-- END .pros-list-->
+
+                <ul class="pros-list pros-list_big-blue">
+                    <li class="pros-list__item">
+                        <span class="pros-list__icon icon-pros-tel"></span>
+                        <h4 class="pros-list__title">Круглосуточная поддержка</h4>
+
+                        <p class="pros-list__text">Мы работаем 24 часа в сутки 7 дней в неделю. Звоните нам в любое
+                            время дня и ночи – мы ответим на интересующий Вас вопрос и окажем необходимую поддержку.</p>
+                    </li>
+                    <li class="pros-list__item">
+                        <span class="pros-list__icon icon-pros-signaling"></span>
+                        <h4 class="pros-list__title">Индивидуальный
+                            подход</h4>
+
+                        <p class="pros-list__text">Если Вы не можете определиться, какой автомобиль Вам нужен, мы с
+                            радостью поможем Вам в выборе и подберем идеальный вариант именно для Вас.</p>
+                    </li>
+                    <li class="pros-list__item">
+                        <span class="pros-list__icon icon-pros-red-car"></span>
+                        <h4 class="pros-list__title">Гарантия качества</h4>
+
+                        <p class="pros-list__text">Все автомобили находятся в идеальном состоянии. Наши суперкары
+                            регулярно проходят осмотр и техническое обслуживание.</p>
+                    </li>
+                </ul> <!-- END .pros-list_big-blue-->
+
+            </div>
+        </section>
+
+        <section class="city-proposition light-blue">
+            <div class="inner">
+                <h2 class="city-proposition__title">Топ предложение по городам</h2>
+                <ul class="city-list">
+                    <li class="city-list__item">
+                        <a href="#" class="city-list__link active">Moнако</a>
+                    </li>
+                    <li class="city-list__item">
+                        <a href="#" class="city-list__link ">Рим</a>
+                    </li>
+                    <li class="city-list__item">
+                        <a href="#" class="city-list__link ">Москва</a>
+                    </li>
+                    <li class="city-list__item">
+                        <a href="#" class="city-list__link ">Москва</a>
+                    </li>
+                    <li class="city-list__item">
+                        <a href="#" class="city-list__link ">Берлин</a>
+                    </li>
+                    <li class="city-list__item">
+                        <a href="#" class="city-list__link ">Киев</a>
+                    </li>
+                    <li class="city-list__item">
+                        <a href="#" class="city-list__link ">Лондон</a>
+                    </li>
+                    <li class="city-list__item">
+                        <a href="#" class="city-list__link ">Париж</a>
+                    </li>
+                </ul>
+
+                <ul class="car-preview">
+                    <li class="car-preview__item">
+                        <a href="#">
+                            <img src="http://placehold.it/1030x410" alt="#">
+
+                            <div class="car-preview__badge">Лучшее предложение <br> от <span class="car-preview__price">3 570</span>
+                                <small>руб</small>
+                            </div>
+
+                            <div class="car-preview__model"><span class="icon-car-small-white"></span> Volkswagen Touareg
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="car-preview__item">
+                        <a href="#">
+                            <img src="http://placehold.it/320x260" alt="#">
+
+                            <div class="car-preview__badge">Лучшее предложение <br> от <span class="car-preview__price">3 570</span>
+                                <small>руб</small>
+                            </div>
+
+                            <div class="car-preview__model"><span class="icon-car-small-white"></span> Volkswagen
+                                Touareg
+                            </div>
+                        </a>
+                    </li>
+                    <li class="car-preview__item">
+                        <a href="#">
+                            <img src="http://placehold.it/320x260" alt="#">
+
+                            <div class="car-preview__badge">Лучшее предложение <br> от <span class="car-preview__price">3 570</span>
+                                <small>руб</small>
+                            </div>
+
+                            <div class="car-preview__model"><span class="icon-car-small-white"></span> Volkswagen
+                                Touareg
+                            </div>
+                        </a>
+                    </li>
+                    <li class="car-preview__item">
+                        <a href="#">
+                            <img src="http://placehold.it/320x260" alt="#">
+
+                            <div class="car-preview__badge">Лучшее предложение <br> от <span class="car-preview__price">3 570</span>
+                                <small>руб</small>
+                            </div>
+
+                            <div class="car-preview__model"><span class="icon-car-small-white"></span> Volkswagen
+                                Touareg
+                            </div>
+                        </a>
+                    </li>
+                </ul> <!-- END .car-preview_big-->
+            </div>
+        </section> <!-- END .city-proposition -->
+
+        <section class="white">
+
+            <div class="inner">
+                <div class="car-mark-slider">
+                    <ul class="js-simple-slider">
+                        <li>
+                            <a href="">
+                                <img src="public/img/content/Layer-0-copy-71.png" alt="#">
+                                Bugatti
+                            </a>
+                            <a href="">
+                                <img src="public/img/content/Layer-23.png" alt="#">
+                                Bugatti
+                            </a>
+                            <a href="">
+                                <img src="public/img/content/Layer-24.png" alt="#">
+                                Bentley
+                            </a>
+                            <a href="">
+                                <img src="public/img/content/Layer-26.png" alt="#">
+                                Bentley
+                            </a>
+                            <a href="">
+                                <img src="public/img/content/Layer-251.png" alt="#">
+                                Bentley
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="public/img/content/Layer-24.png" alt="#">
+                                Bentley
+                            </a>
+                            <a href="">
+                                <img src="public/img/content/Layer-0-copy-71.png" alt="#">
+                                Bugatti
+                            </a>
+                            <a href="">
+                                <img src="public/img/content/Layer-26.png" alt="#">
+                                Bentley
+                            </a>
+                            <a href="">
+                                <img src="public/img/content/Layer-23.png" alt="#">
+                                Bugatti
+                            </a>
+                            <a href="">
+                                <img src="public/img/content/Layer-251.png" alt="#">
+                                Bentley
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="car-park black">
+            <div class="inner">
+                <div class="car-park__head">
+                    <h3 class="car-park__title">Haш автопарк:</h3>
+
+                    <ul class="car-type">
+                        <li class="car-type__item">
+                            <span class="car-type__link"><i class="icon-car-type-business"></i> Бизнес</span>
+                        </li>
+                        <li class="car-type__item">
+                            <span class="car-type__link"><i class="icon-car-type-sedan"></i> Седан</span>
+                        </li>
+                        <li class="car-type__item">
+                            <span class="car-type__link"><i class="icon-car-type-sport"></i> Спорт</span>
+                        </li>
+                        <li class="car-type__item">
+                            <span class="car-type__link"><i class="icon-car-type-outlander"></i> Внедорожник</span>
+                        </li>
+                    </ul>
+
+                    <span class="btn btn_transparent btn_with-border">Все автомбили</span>
+                </div>
+                <div class="car-park__content">
+                    <div class="car-slider">
+                        <ul class="js-slider-car">
+                            <!--<li class="car-slider__item">-->
+                                <a href="#">
+                                    <img src="http://placehold.it/220x160" alt="" class="car-slider__main-img">
+                                    <div class="car-slider__title">Lamborghini Huracan</div>
+                                </a>
+                                <a href="#">
+                                    <img src="http://placehold.it/220x160" alt="" class="car-slider__main-img">
+                                    <div class="car-slider__title">Lamborghini Huracan</div>
+                                </a>
+                                <a href="#">
+                                    <img src="http://placehold.it/220x160" alt="" class="car-slider__main-img">
+                                    <div class="car-slider__title">Lamborghini Huracan</div>
+                                </a>
+                                <a href="#">
+                                    <img src="http://placehold.it/220x160" alt="" class="car-slider__main-img">
+                                    <div class="car-slider__title">Lamborghini Huracan</div>
+                                </a>
+                                <a href="#">
+                                    <img src="http://placehold.it/220x160" alt="" class="car-slider__main-img">
+                                    <div class="car-slider__title">Lamborghini Huracan</div>
+                                </a>
+                            <!--</li>-->
+                            <!--<li class="car-slider__item">-->
+                                <a href="#">
+                                    <img src="http://placehold.it/220x160" alt="" class="car-slider__main-img">
+                                    <div class="car-slider__title">Lamborghini Huracan</div>
+                                </a>
+                                <a href="#">
+                                    <img src="http://placehold.it/220x160" alt="" class="car-slider__main-img">
+                                    <div class="car-slider__title">Lamborghini Huracan</div>
+                                </a>
+                                <a href="#">
+                                    <img src="http://placehold.it/220x160" alt="" class="car-slider__main-img">
+                                    <div class="car-slider__title">Lamborghini Huracan</div>
+                                </a>
+                                <a href="#">
+                                    <img src="http://placehold.it/220x160" alt="" class="car-slider__main-img">
+                                    <div class="car-slider__title">Lamborghini Huracan</div>
+                                </a>
+                                <a href="#">
+                                    <img src="http://placehold.it/220x160" alt="" class="car-slider__main-img">
+                                    <div class="car-slider__title">Lamborghini Huracan</div>
+                                </a>
+                            <!--</li>-->
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="app blue">
+            <div class="inner">
+
+                <div class="app__row">
+                    <h2 class="app__title">Персональный ассистент
+                        QRENT в вашем кармане</h2>
+
+                    <p class="app__text">Где бы вы не находились, вы можете арендовать нужный вам автомобиль всего в
+                        несколько кликов. Установите приложение QRENT и получайте максимум удовольствия от пребывания во
+                        всех уголках мира.</p>
+
+                    <p class="app__text">Доступно на платформах <b>iOS</b> и <b>Android</b>.</p>
+
+                    <div class="app__store">
+                        <a href="#" class="app__link app-store"></a>
+                        <a href="#" class="app__link google-play"></a>
+                    </div>
+                </div>
+
+                <ul class="app__pros">
+                    <li class="app__pros-item">
+                        <p>Просто и функцианально.</p>
+                    </li>
+                    <li class="app__pros-item">
+                        <p>Оформление аренды за считанные минуты.</p>
+                    </li>
+                    <li class="app__pros-item">
+                        <p>Поддержка клиентов в режиме 24/7</p>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="testimonials white">
+            <div class="inner">
+
+                <h2 class="testimonials__title">Отзывы наших клиентов</h2>
+
+                <p class="testimonials__subtitle">Более 560 наших клиентов уже оценили <br> превосходный уровень сервиса
+                </p>
+                <div class="testimonials__slider">
+                    <ul class="js-slider-testimonial">
+                        <li class="testimonials__item">
+                            <div class="comment">
+                                <div class="comment__user-info">
+                                    <img src="http://placehold.it/48x48" alt="" class="comment__avatar">
+                                    <span class="comment__name">Por Incididunt</span>
+                                    <span class="comment__car">df dfd</span>
+                                </div>
+                                <div class="comment__content">
+                                    <h5 class="comment__title">Lorem ipsum dolor</h5>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud </p>
+                                </div>
+                                <div class="small-car-list">
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="testimonials__item">
+                            <div class="comment">
+                                <div class="comment__user-info">
+                                    <img src="http://placehold.it/48x48" alt="" class="comment__avatar">
+                                    <span class="comment__name">Por Incididunt</span>
+                                    <span class="comment__car">df dfd</span>
+                                </div>
+                                <div class="comment__content">
+                                    <h5 class="comment__title">Lorem ipsum dolor</h5>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud </p>
+                                </div>
+                                <div class="small-car-list">
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="testimonials__item">
+                            <div class="comment">
+                                <div class="comment__user-info">
+                                    <img src="http://placehold.it/48x48" alt="" class="comment__avatar">
+                                    <span class="comment__name">Por Incididunt</span>
+                                    <span class="comment__car">df dfd</span>
+                                </div>
+                                <div class="comment__content">
+                                    <h5 class="comment__title">Lorem ipsum dolor</h5>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud </p>
+                                </div>
+                                <div class="small-car-list">
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="testimonials__item">
+                            <div class="comment">
+                                <div class="comment__user-info">
+                                    <img src="http://placehold.it/48x48" alt="" class="comment__avatar">
+                                    <span class="comment__name">Por Incididunt</span>
+                                    <span class="comment__car">df dfd</span>
+                                </div>
+                                <div class="comment__content">
+                                    <h5 class="comment__title">Lorem ipsum dolor</h5>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud </p>
+                                </div>
+                                <div class="small-car-list">
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="testimonials__item">
+                            <div class="comment">
+                                <div class="comment__user-info">
+                                    <img src="http://placehold.it/48x48" alt="" class="comment__avatar">
+                                    <span class="comment__name">Por Incididunt</span>
+                                    <span class="comment__car">df dfd</span>
+                                </div>
+                                <div class="comment__content">
+                                    <h5 class="comment__title">Lorem ipsum dolor</h5>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud </p>
+                                </div>
+                                <div class="small-car-list">
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                    <a href="#"><img src="http://placehold.it/47x43" alt="" class="car-slider__main-img"></a>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
+<footer>
+    <div class="inner">
+        <div class="row">
+            <div class="left">
+                <a href="#" class="logo-small"></a>
+                <a href="#" class="btn btn_transparent btn_rounded btn_entrance"><i class="icon-entrance-small"></i>
+                    Войти</a>
+            </div>
+            <div class="right">
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row contacts">
+            <span class="btn btn_transparent btn_rounded">Обратная связь</span>
+            <span class="tel"><i class="fa fa-phone"></i>234 2342 23434</span>
+            <span class="email"><i class="fa fa-envelope"></i>mail@mail.com</span>
+            <span class="adr"><i class="fa fa-map-marker"></i>Австрия г. Вена, ул. Совина, д. 87/2 п. 11</span>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="public/js/jquery-2.1.4.min.js"><\/script>')</script>
+<script src="public/js/chosen.jquery.min.js"></script>
+<script src="public/js/jquery.vide.min.js"></script>
+<script src="public/js/ion.rangeSlider.min.js"></script>
+<script src="public/js/jquery.bxslider.min.js"></script>
+<script src="public/js/project.js"></script>
+
+
+<script>
+
+    $(".js-media-bg").vide({
+        'mp4': 'public/video/ocean',
+        'webm': 'public/video/ocean',
+        'ogv': 'public/video/ocean',
+        'poster': 'public/video/ocean'
+    }, {
+        volume: 1,
+        playbackRate: 1,
+        muted: true,
+        loop: true,
+        autoplay: true,
+        position: '0 0',
+        posterType: 'jpg',
+        resizing: true,
+        bgColor: 'transparent'
+    });
+
+</script>
+
+
+</body>
+</html>

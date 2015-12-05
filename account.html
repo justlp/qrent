@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="public/font-awesome.min.css">
+    <link rel="stylesheet" href="public/chosen.min.css">
+    <link rel="stylesheet" href="public/ion.rangeSlider.css">
+    <link rel="stylesheet" href="public/ion.rangeSlider.skinFlat.css">
+    <link rel="stylesheet" href="public/bxslider.css">
+    <link rel="stylesheet" href="public/sprite.css">
+
+    <link rel="stylesheet" href="public/main.css">
+</head>
+<body class="account-page">
+<div class="wrapper">
+    <header>
+        <div class="inner">
+            <a href="#" class="logo-small-thin"></a>
+            <div class="user-nav">
+                <div class="user-nav__item">
+                    <a href="#" class="btn btn_transparent btn_rounded btn_entrance"><i class="icon-entrance-small"></i> Войти</a>
+                </div>
+                <div class="user-nav__item">
+                    <span class="lang-dropdown">
+                        <span class="btn btn_transparent btn_rounded">Eng <i class="fa fa-angle-down"></i></span>
+                        <ul class="lang-dropdown__list">
+                            <li class="lang-dropdown__item"><a href="#">Ua</a></li>
+                            <li class="lang-dropdown__item"><a href="#">De</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <section class="white">
+            <div class="inner">
+
+                <ol class="breadcrumb">
+                    <li><a href="#">Главная</a> <i class="fa fa-angle-right"></i></li>
+                    <li class="active">Поиск</li>
+                </ol>
+
+                <div class="active-order">
+                    <h3 class="active-order__title">Активные заказы</h3>
+                    <div class="active-order__list">
+                        <ul class="js-slider">
+                            <li class="active-order__item">
+                                
+                                <div class="order">
+                                    <div class="order__top">
+                                        <div class="order__car-img"><img src="http://placehold.it/230x151" alt=""></div>
+                                        <div class="order__dates">
+                                            <div class="order__day">
+                                                <span class="order-date">27</span>
+                                                <div class="order__month">Ноября</div>
+                                            </div>
+                                            <div class="order__day">
+                                                <span class="order-date">29</span>
+                                                <div class="order__month">Ноября</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="order__additional js-toggle-additional">
+                                            <i class="icon-menu"></i>
+                                            Характеристики
+                                        </div>
+                                        <ul class="car-property car-property_mid-width">
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Пассажирских мест:</span>
+                                                    <span class="right"><i class="red-circle"></i><i class="red-circle"></i></span>
+                                                </div>
+                                            </li>
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Объем двигателя:</span>
+                                                    <span class="right">3240 см<sup>3</sup></span>
+                                                </div>
+                                            </li>
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Объем двигателя:</span>
+                                                    <span class="right">3240 см<sup>3</sup></span>
+                                                </div>
+                                            </li>
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Пассажирских мест:</span>
+                                                    <span class="right"><i class="red-circle"></i><i class="red-circle"></i></span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="order__content">
+                                        <div class="order__title">Porshe Panamera
+                                            <div class="price">130<sup>€</sup></div>
+                                        </div>
+                                        <div class="order__subtitle">Москва</div>
+
+                                        <div class="order__status order__status_in-process">Подбор свободных авто</div>
+
+                                        <div class="order__info">
+                                            <ul class="car-property car-property_in-order car-property_no-indent">
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Подача</span>
+                                                        <span class="right">Хилтон</span>
+                                                    </div>
+                                                </li>
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Возврат</span>
+                                                        <span class="right">Ривер Плаза</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="car-property car-property_in-order">
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Кол-во дней</span>
+                                                        <span class="right">2</span>
+                                                    </div>
+                                                </li>
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Доступно</span>
+                                                        <span class="right">500 км</span>
+                                                    </div>
+                                                </li>
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Франшиза</span>
+                                                        <span class="right">2000$</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+
+                                        <div class="edit-info">
+                                            <span class="edit-info__remove"><i class="icon-remove"></i></span>
+                                            <span class="edit-info__edit"><i class="icon-edit"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </li>
+
+                            <li class="active-order__item">
+
+                                <div class="order">
+                                    <div class="order__top">
+                                        <div class="order__car-img"><img src="http://placehold.it/230x151" alt=""></div>
+                                        <div class="order__dates">
+                                            <div class="order__day">
+                                                <span class="order-date">27</span>
+                                                <div class="order__month">Ноября</div>
+                                            </div>
+                                            <div class="order__day">
+                                                <span class="order-date">29</span>
+                                                <div class="order__month">Ноября</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="order__additional js-toggle-additional">
+                                            <i class="icon-menu"></i>
+                                            Характеристики
+                                        </div>
+                                        <ul class="car-property car-property_mid-width">
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Пассажирских мест:</span>
+                                                    <span class="right"><i class="red-circle"></i><i class="red-circle"></i></span>
+                                                </div>
+                                            </li>
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Объем двигателя:</span>
+                                                    <span class="right">3240 см<sup>3</sup></span>
+                                                </div>
+                                            </li>
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Объем двигателя:</span>
+                                                    <span class="right">3240 см<sup>3</sup></span>
+                                                </div>
+                                            </li>
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Пассажирских мест:</span>
+                                                    <span class="right"><i class="red-circle"></i><i class="red-circle"></i></span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="order__content">
+                                        <div class="order__title">Porshe Panamera
+                                            <div class="price">130<sup>€</sup></div>
+                                        </div>
+                                        <div class="order__subtitle">Москва</div>
+
+                                        <div class="order__status order__status_done">Авто подобраны</div>
+
+                                        <div class="order__info">
+                                            <ul class="car-property car-property_in-order">
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Подача</span>
+                                                        <span class="right">Хилтон</span>
+                                                    </div>
+                                                </li>
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Возврат</span>
+                                                        <span class="right">Ривер Плаза</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="car-property car-property_in-order">
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Кол-во дней</span>
+                                                        <span class="right">2</span>
+                                                    </div>
+                                                </li>
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Доступно</span>
+                                                        <span class="right">500 км</span>
+                                                    </div>
+                                                </li>
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Франшиза</span>
+                                                        <span class="right">2000$</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+
+                                        <div class="edit-info">
+                                            <span class="edit-info__remove"><i class="icon-remove"></i></span>
+                                            <span class="edit-info__edit"><i class="icon-edit"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+
+
+                            <li class="active-order__item">
+
+                                <div class="order">
+                                    <div class="order__top">
+                                        <div class="order__car-img"><img src="http://placehold.it/230x151" alt=""></div>
+                                        <div class="order__dates">
+                                            <div class="order__day">
+                                                <span class="order-date">27</span>
+                                                <div class="order__month">Ноября</div>
+                                            </div>
+                                            <div class="order__day">
+                                                <span class="order-date">29</span>
+                                                <div class="order__month">Ноября</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="order__additional js-toggle-additional">
+                                            <i class="icon-menu"></i>
+                                            Характеристики
+                                        </div>
+                                        <ul class="car-property car-property_mid-width">
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Пассажирских мест:</span>
+                                                    <span class="right"><i class="red-circle"></i><i class="red-circle"></i></span>
+                                                </div>
+                                            </li>
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Объем двигателя:</span>
+                                                    <span class="right">3240 см<sup>3</sup></span>
+                                                </div>
+                                            </li>
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Объем двигателя:</span>
+                                                    <span class="right">3240 см<sup>3</sup></span>
+                                                </div>
+                                            </li>
+                                            <li class="car-property__item">
+                                                <div class="car-property__content">
+                                                    <span class="left">Пассажирских мест:</span>
+                                                    <span class="right"><i class="red-circle"></i><i class="red-circle"></i></span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="order__content">
+                                        <div class="order__title">Porshe Panamera
+                                            <div class="price">130<sup>€</sup></div>
+                                        </div>
+                                        <div class="order__subtitle">Москва</div>
+
+                                        <div class="order__status order__status_in-process">Подбор свободных авто</div>
+
+                                        <div class="order__info">
+                                            <ul class="car-property car-property_in-order">
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Подача</span>
+                                                        <span class="right">Хилтон</span>
+                                                    </div>
+                                                </li>
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Возврат</span>
+                                                        <span class="right">Ривер Плаза</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="car-property car-property_in-order">
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Кол-во дней</span>
+                                                        <span class="right">2</span>
+                                                    </div>
+                                                </li>
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Доступно</span>
+                                                        <span class="right">500 км</span>
+                                                    </div>
+                                                </li>
+                                                <li class="car-property__item">
+                                                    <div class="car-property__content">
+                                                        <span class="left">Франшиза</span>
+                                                        <span class="right">2000$</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+
+                                        <div class="edit-info">
+                                            <span class="edit-info__remove"><i class="icon-remove"></i></span>
+                                            <span class="edit-info__edit"><i class="icon-edit"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="dark-white">
+            <div class="inner">
+                <h3>Личные данные</h3>
+
+                <div class="customer-id">
+                    <div class="customer-id__left">
+                        <div class="customer-id__title">Паспорт или карта резидента</div>
+                        <div class="customer-id__content">
+                            <div class="customer-id__col">
+                                <div class="customer-id__img">
+                                    <img src="http://placehold.it/95x60" alt=""><i class="icon-remove-red-bg"></i>
+                                </div>
+                                <p class="customer-id__text">Сторона А(1)</p>
+                            </div>
+                            <div class="customer-id__col">
+                                <div class="customer-id__img">
+                                    <img src="http://placehold.it/95x60" alt=""><i class="icon-remove-red-bg"></i>
+                                </div>
+                                <p class="customer-id__text">Сторона А(2)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customer-id__center">
+                        <div class="customer-id__title">Платежная карта</div>
+                        <div class="customer-id__content">
+                            <span class="pseudo-input pseudo-input_full">4141&nbsp;3553&nbsp;5454&nbsp;4545</span>
+                            <div class="pseudo-cart-number__valid">
+                                <p class="customer-id__text">Действует до:</p>
+                                <span class="pseudo-input">12</span>
+                                <span class="pseudo-input">2015</span>
+                            </div>
+                            <div class="pseudo-svv__valid">
+                                <p class="customer-id__text">CVV:</p>
+                                <span class="pseudo-input">***</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customer-id__right">
+                        <div class="customer-id__title">Водительское удостоверение</div>
+                        <div class="customer-id__content">
+                            <div class="customer-id__col">
+                                <div class="customer-id__img">
+                                    <img src="http://placehold.it/95x60" alt=""><i class="icon-remove-red-bg"></i>
+                                </div>
+                                <p class="customer-id__text">Сторона А(1)</p>
+                            </div>
+                            <div class="customer-id__col">
+                                <div class="customer-id__img">
+                                    <i class="icon-add"></i>
+                                </div>
+                                <p class="customer-id__text">Сторона А(2)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="edit-info">
+                        <span class="edit-info__remove"><i class="icon-remove"></i></span>
+                        <span class="edit-info__edit"><i class="icon-edit"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="white">
+            <div class="inner">
+                <h3>История заказов</h3>
+
+                <div class="order-history">
+                    <ul class="js-slider-small-in-account">
+                        <li>
+
+                            <div class="order order_small">
+                                <div class="order__top">
+                                    <div class="order__car-img"><img src="http://placehold.it/125x83" alt=""></div>
+                                    <div class="order__dates">
+                                        <div class="order__day">
+                                            <span class="order-date">27</span>
+                                            <div class="order__month">Ноября</div>
+                                        </div>
+                                        <div class="order__day">
+                                            <span class="order-date">29</span>
+                                            <div class="order__month">Ноября</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order__content">
+                                    <div class="order__title">Porshe Panamera
+                                        <div class="price">130<sup>€</sup></div>
+                                    </div>
+                                    <div class="order__subtitle">Москва</div>
+
+                                    <div class="order__status order__status_history-green">Авто подобраный</div>
+
+                                </div>
+                            </div>
+
+                        </li>
+
+                        <li>
+
+                            <div class="order order_small">
+                                <div class="order__top">
+                                    <div class="order__car-img"><img src="http://placehold.it/125x83" alt=""></div>
+                                    <div class="order__dates">
+                                        <div class="order__day">
+                                            <span class="order-date">27</span>
+                                            <div class="order__month">Ноября</div>
+                                        </div>
+                                        <div class="order__day">
+                                            <span class="order-date">29</span>
+                                            <div class="order__month">Ноября</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order__content">
+                                    <div class="order__title">Porshe Panamera
+                                        <div class="price">130<sup>€</sup></div>
+                                    </div>
+                                    <div class="order__subtitle">Москва</div>
+
+                                    <div class="order__status order__status_history-red">Авто подобраный</div>
+
+                                </div>
+                            </div>
+
+                        </li>
+
+                        <li>
+
+                            <div class="order order_small">
+                                <div class="order__top">
+                                    <div class="order__car-img"><img src="http://placehold.it/125x83" alt=""></div>
+                                    <div class="order__dates">
+                                        <div class="order__day">
+                                            <span class="order-date">27</span>
+                                            <div class="order__month">Ноября</div>
+                                        </div>
+                                        <div class="order__day">
+                                            <span class="order-date">29</span>
+                                            <div class="order__month">Ноября</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order__content">
+                                    <div class="order__title">Porshe Panamera
+                                        <div class="price">130<sup>€</sup></div>
+                                    </div>
+                                    <div class="order__subtitle">Москва</div>
+
+                                    <div class="order__status order__status_history-red">Авто подобраный</div>
+
+                                </div>
+                            </div>
+
+                        </li>
+
+                        <li>
+
+                            <div class="order order_small">
+                                <div class="order__top">
+                                    <div class="order__car-img"><img src="http://placehold.it/125x83" alt=""></div>
+                                    <div class="order__dates">
+                                        <div class="order__day">
+                                            <span class="order-date">27</span>
+                                            <div class="order__month">Ноября</div>
+                                        </div>
+                                        <div class="order__day">
+                                            <span class="order-date">29</span>
+                                            <div class="order__month">Ноября</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order__content">
+                                    <div class="order__title">Porshe Panamera
+                                        <div class="price">130<sup>€</sup></div>
+                                    </div>
+                                    <div class="order__subtitle">Москва</div>
+
+                                    <div class="order__status order__status_history-red">Авто подобраный</div>
+
+                                </div>
+                            </div>
+
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
+<footer>
+    <div class="inner">
+        <div class="row">
+            <div class="left">
+                <a href="#" class="logo"></a>
+                <a href="#" class="btn btn_transparent btn_rounded btn_entrance"><i class="icon-entrance-small"></i> Войти</a>
+            </div>
+            <div class="right">
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row contacts">
+            <span class="btn btn_transparent btn_rounded">Обратная связь</span>
+            <span class="tel"><i class="fa fa-phone"></i>234 2342 23434</span>
+            <span class="email"><i class="fa fa-envelope"></i>mail@mail.com</span>
+            <span class="adr"><i class="fa fa-map-marker"></i>Австрия г. Вена, ул. Совина, д. 87/2 п. 11</span>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="public/js/jquery-2.1.4.min.js"><\/script>')</script>
+<script src="public/js/chosen.jquery.min.js"></script>
+<script src="public/js/jquery.vide.min.js"></script>
+<script src="public/js/ion.rangeSlider.min.js"></script>
+<script src="public/js/jquery.bxslider.min.js"></script>
+<script src="public/js/project.js"></script>
+
+
+
+<script>
+    $('.js-slider').bxSlider({
+        infiniteLoop: false,
+        hideControlOnEnd: true,
+        pager: false,
+        adaptiveHeight: true,
+        controls: true,
+        slideMargin: 30,
+        slideWidth: 425,
+        minSlides: 1,
+        maxSlides: 2
+    });
+
+    $('.js-slider-small-in-account').bxSlider({
+        infiniteLoop: false,
+        hideControlOnEnd: true,
+        pager: false,
+        adaptiveHeight: true,
+        controls: true,
+        slideMargin: 30,
+        slideWidth: 280,
+        minSlides: 1,
+        maxSlides: 3
+    });
+</script>
+
+</body>
+</html>

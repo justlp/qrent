@@ -1,0 +1,65 @@
+@import "normalize.css";
+
+
+@import "typo.css";
+@import "layout.css";
+@import "common.css";
+
+@import "btn.css";
+
+/* blocks */
+@import "testimonial.css";
+@import "index-top.css";
+@import "chosen.css";
+
+
+
+
+/*
+clear: fix;
+@link-colors all red;
+@link-colors all red {
+        focus: white;
+        hover: blue;
+    }
+top: center;
+left: center;
+
+margin-left: 20px;
+margin-right: @margin-left;
+
+position: absolute 10px 0 20px 30px;
+
+
+
+
+font-family: 'WeblySleekUILight', Arial, Helvetica, sans-serif;
+
+
+#ffffff
+#f8fafe
+#dce6f4
+
+
+<i class="fa fa-angle-down">
+<i class="fa fa-angle-up">
+<i class="fa fa-map-marker"></i>
+<i class="fa fa-angle-right"></i>
+<i class="fa fa-angle-left"></i>
+<i class="fa fa-phone"></i>
+<i class="fa fa-envelope"></i>
+<i class="fa fa-facebook"></i>
+<i class="fa fa-linkedin"></i>
+<i class="fa fa-instagram"></i>
+
+
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .logo {
+    background: red url('/public/images/logo@2x.png') no-repeat 0 0;
+  }
+}
+
+.logo {
+    background: #fff url(../img/icons/logo.png) no-repeat 0 0;
+}
+*/

@@ -1,0 +1,33 @@
+.index-top{
+    position: relative;
+    padding-top: 105px;
+    background-color: transparent;
+}
+.index-top__title{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    width: 835px;
+    margin: 0 auto 25px;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.index-top__subtitle{
+    width: 620px;
+    margin: 0 auto 132px;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+    font-family: 'WeblySleekUILight', Arial, Helvetica, sans-serif;
+}
+
+
+.index-top .tab{}
+
+.index-top .top-bg {
+    top: 0;
+    left: center;
+    z-index: -1;
+}
