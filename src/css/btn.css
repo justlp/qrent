@@ -11,6 +11,7 @@
     cursor: pointer;
     outline: none;
     color: #fff;
+    @link-colors all #fff;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
     user-select: none;
