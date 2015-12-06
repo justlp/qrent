@@ -1588,3 +1588,181 @@ i {
 .account-page .popup__inner{
     width: 645px;
 }
+
+.credit-card{
+    border: 1px solid #4D536D;
+    border-radius: 5px;
+    padding: 10px 8px 15px;
+}
+.credit-card__number{
+    display: block;
+}
+.credit-card .customer-id__text{
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #646B84;
+    text-transform: none;
+}
+.credit-card input{}
+.credit-card__expire{}
+.credit-card__expire input{
+    width: 50px;
+    display: inline-block;
+}
+.credit-card__line{
+    height: 30px;
+    background: #333A54;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.credit-card__cvv{
+    width: 40px;
+    margin-left: 20px;
+}
+.credit-card__name{
+    width: 140px;
+    margin-right: 16px;
+}
+
+
+.popup .customer-id{
+    width: 100%;
+}
+.popup .customer-id__left{
+    background-color: #424B6A;
+}
+.popup .customer-id__left, .customer-id__right{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.customer-id__right .credit-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.chat{
+    position: relative;
+}
+.chat__inbox{
+    background-color: #e73849;
+    font-size: 11px;
+    position: absolute;
+    top: -8px;
+    right: -4px;
+    z-index: 2;
+    display: inline-block;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.chat .fa-comments-o{
+    font-size: 20px;
+    vertical-align: top;
+    padding: 5px;
+    background: transparent;
+    border-radius: 50%;
+    top: -1px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #7a7f83;
+    color: #fff;
+}
+.chat .fa-comments-o:hover,
+.chat .fa-comments-o:focus{
+    background-color: #fff;
+    color: #4A5477;
+}
+.chat.open .fa-comments-o{
+    background-color: #fff;
+    color: #4A5477;
+}
+.chat__container{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    box-shadow: 0 4px 13px rgba(0,0,0, .12);
+    z-index: 100;
+}
+.chat__container:before{
+    content: '';
+    position: absolute;
+    top: -11px;
+    right: 4px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #E9E8ED;
+}
+.chat__title{
+    background-color: #E9E8ED;
+    color: #8D8D8D;
+    font-weight: 700;
+    padding: 10px;
+}
+.chat__content{
+    background-color: #fff;
+    padding: 20px 10px;
+}
+.chat__img{
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+}
+.chat__time{
+    color: #BEBEBE;
+    font-size: 10px;
+}
+.chat__support-msg{
+    position: relative;
+    min-height: 60px;
+    padding-left: 50px;
+}
+.chat__support-msg .chat__img,
+.chat__support-msg .chat__time{
+    position: absolute;
+    left: 0;
+}
+.chat__support-msg .chat__img{
+    top: 0;
+}
+.chat__support-msg .chat__time{
+    top: 43px;
+    left: 7px;
+}
+
+.chat__message{
+    padding: 10px 15px;
+    max-width: 230px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.chat__support-msg .chat__message{
+    background: #E6E5EB;
+}
+.chat__customer-msg{
+    text-align: right;
+}
+.chat__customer-msg .chat__message{
+    background-color: #424B6A;
+    color: #fff;
+    text-align: left;
+    margin-left: auto;
+}
+.chat__customer-msg .chat__time{
+    margin-top: 10px;
+}
+
+.chat.open .chat__container{
+    display: block;
+}
