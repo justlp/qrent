@@ -50,7 +50,7 @@ i {
 .lang-dropdown__item a:focus{
     border-color: #7a7f83;
     border-radius: 20px;
-    background-color: #D0CFD0;
+    background: rgba(0,0,0,.3);
 }
 
 
@@ -59,7 +59,7 @@ i {
     opacity: 1;
 }
 .lang-dropdown.open .btn_rounded{
-    border: none;
+    /*border-color: transparent;*/
 }
 
 
@@ -77,6 +77,11 @@ i {
     font-weight: 700;
     font-size: 16px;
     cursor: pointer;
+    transition: all .3s;
+}
+.tab__item:hover,
+.tab__item:focus{
+    background-color: #333A52;
 }
 .tab__item.active{
     background-color: #495376;
