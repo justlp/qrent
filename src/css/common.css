@@ -58,9 +58,6 @@ i {
     display: block;
     opacity: 1;
 }
-.lang-dropdown.open .btn_rounded{
-    /*border-color: transparent;*/
-}
 
 
 .tab{
@@ -143,6 +140,7 @@ i {
 .select-car_big{
     padding: 25px 0 35px;
     margin-bottom: 27px;
+    box-shadow: 0 17px 16px 0 rgba(0,0,0,.21);
 }
 .select-car_big .select-car__item:first-child{
     width: 215px;
@@ -678,6 +676,10 @@ i {
     float: left;
     width: 488px;
     margin: 29px 26px;
+    transition: all .2s;
+}
+.car-list__item:hover{
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.25);
 }
 
 
@@ -693,12 +695,12 @@ i {
 .car-booking-prev li a{}
 .car-booking-prev__content{
     float: left;
-    height: 247px;
+    height: 237px;
     padding: 20px;
     position: relative;
     z-index: 1;
     width: 245px;
-    top: -6px;
+    /*top: -6px;*/
 }
 .car-booking-prev__content:before{
     content: '';
@@ -706,7 +708,7 @@ i {
     left: center;
     display: block;
     width: 105%;
-    height: @width;
+    height: 110%;
     background-color: #fff;
     z-index: -1;
     box-shadow: 0px 5px 13px 0px rgba(0,0,0,.2);
@@ -1770,4 +1772,29 @@ i {
 
 .chat.open .chat__container{
     display: block;
+}
+
+.copy{
+    margin-top: 15px;
+    display: block;
+    text-transform: uppercase;
+    color: #6d6d6d;
+}
+
+.email{
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+}
+.email i{
+    position: absolute;
+    top: center;
+    left: 0;
+}
+
+.social a{
+    @link-colors all #fff{
+        focus: #1C1C1C;
+        hover: #1C1C1C;
+    };
 }

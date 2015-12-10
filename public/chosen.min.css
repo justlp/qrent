@@ -24,14 +24,13 @@
     left: -9999px;
     z-index: 1010;
     width: 100%;
-    /*border: 1px solid #aaa;*/
-    /*border-top: 0;*/
     background: #fff;
-    box-shadow: 0px 16px 48px 0 rgba(0, 0, 0, .19);
+    box-shadow: 0 16px 38px 0 rgba(0, 0, 0, .09);
 }
 
 .chosen-container.chosen-with-drop .chosen-drop {
-    left: 0
+    left: 0;
+    z-index: 1;
 }
 
 .chosen-container a {
@@ -110,7 +109,13 @@
     width: 46px;
     height: 46px;
     background-color: #fff;
-    box-shadow: 0px 5px 13px 0px rgba(0,0,0, 0.19);
+    box-shadow: 0 5px 20px -2px rgba(0,0,0, 0.09);
+    transition: all .1s linear;
+}
+
+.chosen-with-drop.chosen-container-single .chosen-single div{
+    height: 36px;
+    top: 0;
 }
 
 .chosen-container-single .chosen-single div b {
@@ -343,6 +348,9 @@
 
 .chosen-container-active.chosen-with-drop .chosen-single div {
     border-left: 0;
+    height: 37px;
+    top: 0;
+    z-index: 3;
 }
 
 .chosen-container-active.chosen-with-drop .chosen-single div b {

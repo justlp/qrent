@@ -13,7 +13,7 @@ html, body, .wrapper{
     position: relative;
     height: auto;
     min-height: 100%;
-    min-width: 960px;
+    min-width: 1030px;
     overflow: hidden;
 }
 
@@ -21,7 +21,7 @@ html, body, .wrapper{
     padding-bottom: 210px;
 }
 header {
-    padding: 25px 0 16px;
+    padding: 20px 0 21px;
     background-color: #333e43;
     background: #4a5476 url('img/header-bg.jpg') 50% -110px no-repeat;
 }
@@ -48,11 +48,9 @@ header .inner .logo{
 }
 header .inner .user-nav{
     float: right;
-    margin-top: 6px;
+    margin-top: 11px;
 }
-.index-page .inner .user-nav{
-    margin-top: 10px;
-}
+
 header.index-page{
     position: absolute;
     top: 0;
@@ -94,25 +92,38 @@ footer {
     display: block;
     margin: -210px 0 0;
     height: 210px;
-    min-width: 960px;
+    min-width: 1030px;
     background-color: #1c1c1c;
 }
 footer .inner{
     padding: 34px 0 55px;
-    width: 1090px;
+    width: 1030px;
 }
 footer .row{
-    clear: fix;
+    display: table;
 }
 footer .row .left{
-    float: left;
+    display: table-cell;
 }
 footer .row .left a{
-    margin-right: 20px;
+    margin-right: 5px;
     vertical-align: middle;
+    display: inline-block;
+}
+footer .row .center{
+    display: table-cell;
+    width: 640px;
+}
+footer .row .center a{
+    margin: 0 20px;
+    vertical-align: middle;
+    display: inline-block;
 }
 footer .row .right{
-    float: right;
+    display: table-cell;
+}
+footer .row .right .email{
+    margin-top: 27px;
 }
 
 footer .btn_entrance{
@@ -129,4 +140,12 @@ footer .btn_transparent{
 }
 footer .btn_entrance i{
     left: 10px;
+}
+footer a{
+    text-decoration: underline;
+    @link-colors all #424242;
+}
+footer a:hover,
+footer a:focus{
+    text-decoration: none;
 }
