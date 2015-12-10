@@ -337,6 +337,9 @@ i {
     width: 1030px;
     height: 410px;
 }
+.car-preview__item img{
+    display: block;
+}
 .car-preview__item:first-child .car-preview__badge{
     top: 20px;
     left: -30px;
@@ -376,6 +379,22 @@ i {
 }
 .car-preview__model .icon-car-small-white{
     display: inline-block;
+}
+
+.car-preview_bir-right{}
+.car-preview_bir-right .car-preview__item:first-child{
+    float: right;
+    width: 650px;
+    height: 473px;
+    margin-right: 0;
+}
+.car-preview_bir-right .car-preview__item:last-child{
+    margin-right: 0;
+}
+.car-preview_bir-right .car-preview__item{
+    margin: 0 21px 23px 0;
+    height: 225px;
+    width: 340px;
 }
 
 
