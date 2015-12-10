@@ -1625,6 +1625,31 @@ i {
     z-index: 100;
     cursor: pointer;
 }
+.overlay-popup_index .popup{
+    background: #fff;
+    border-radius: 5px;
+}
+.overlay-popup_index .popup__inner{
+    width: 600px;
+    padding: 25px 30px;
+}
+.overlay-popup_index .icon-close-entrance-popup{
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    cursor: pointer;
+}
+.overlay-popup_index .icon-close-entrance-popup:before{
+    content: '';
+    position: absolute;
+    top: center;
+    left: center;
+    width: 47px;
+    height: 47px;
+    background-color: #F2F2F2;
+    z-index: -1;
+    border-radius: 50%;
+}
 
 
 .account-page .overlay-popup{
@@ -1840,4 +1865,49 @@ i {
         focus: #1C1C1C;
         hover: #1C1C1C;
     };
+}
+
+
+.auth{
+    text-align: center;
+}
+.auth__title{
+    font-size: 27px;
+    line-height: 1;
+    display: inline-block;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+}
+.auth__title i{}
+.auth__content{}
+.auth__content p{
+    color: #969696;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+}
+.auth__content label{
+    position: relative;
+}
+.auth__content .icon-phone-popup{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+}
+.auth__content form{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.auth__input{
+    color: #2D2D2D;
+    background: #E8E8E8;
+    width: 275px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 10px 10px 45px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 40px;
 }

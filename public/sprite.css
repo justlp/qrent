@@ -23,11 +23,11 @@
 }
 .order-date{ background-image: url(img/sprite.png); background-position: -206px -173px; width: 40px; height: 40px;
 }
-.icon-add{ background-image: url(img/sprite.png); background-position: -115px -241px; width: 21px; height: 21px;
+.icon-add{ background-image: url(img/sprite.png); background-position: -136px -241px; width: 21px; height: 21px;
 }
-.icon-add-small{ background-image: url(img/sprite.png); background-position: 0 -266px; width: 19px; height: 19px;
+.icon-add-small{ background-image: url(img/sprite.png); background-position: -77px -266px; width: 19px; height: 19px;
 }
-.icon-add-paginator{ background-image: url(img/sprite.png); background-position: -94px -241px; width: 21px; height: 21px;
+.icon-add-paginator{ background-image: url(img/sprite.png); background-position: -115px -241px; width: 21px; height: 21px;
 }
 .icon-edit{ background-image: url(img/sprite.png); background-position: -98px -217px; width: 25px; height: 24px;
 }
@@ -37,23 +37,30 @@
 }
 .icon-remove-red-bg{ background-image: url(img/sprite.png); background-position: -147px -217px; width: 24px; height: 24px;
 }
-.icon-remove-red-bg-small{ background-image: url(img/sprite.png); background-position: -57px -266px; width: 19px; height: 19px;
+.icon-remove-red-bg-small{ background-image: url(img/sprite.png); background-position: -20px -266px; width: 19px; height: 19px;
 }
 .icon-btn-booking{ background-image: url(img/sprite.png); background-position: -171px -217px; width: 25px; height: 22px;
 }
-.icon-find-car{ background-image: url(img/sprite.png); background-position: -19px -266px; width: 19px; height: 19px;
+.icon-find-car{ background-image: url(img/sprite.png); background-position: -58px -266px; width: 19px; height: 19px;
 }
-.icon-found-car{ background-image: url(img/sprite.png); background-position: -38px -266px; width: 19px; height: 19px;
+.icon-found-car{ background-image: url(img/sprite.png); background-position: -39px -266px; width: 19px; height: 19px;
 }
+.icon-close-entrance-popup{ background-image: url(img/sprite.png); background-position: 0 -266px; width: 20px; height: 20px;
+}
+.icon-entrance-popup{ background-image: url(img/sprite.png); background-position: -94px -241px; width: 21px; height: 21px;
+}
+.icon-phone-popup{ background-image: url(img/sprite.png); background-position: -288px -173px; width: 16px; height: 16px;
+}
+
 
 /* index page
 section our park */
-.icon-car-type-business{ background-image: url(img/sprite.png); background-position: -235px -101px; width: 41px; height: 13px;
+.icon-car-type-business{ background-image: url(img/sprite.png); background-position: -246px -195px; width: 41px; height: 13px;
 }
 .car-type__link:hover .icon-car-type-business,
-.car-type__link:focus .icon-car-type-business{ background-image: url(img/sprite.png); background-position: -246px -195px; width: 41px; height: 13px;
+.car-type__link:focus .icon-car-type-business{ background-image: url(img/sprite.png); background-position: -235px -101px; width: 41px; height: 13px;
 }
-.icon-car-type-business_active{ background-image: url(img/sprite.png); background-position: -246px -195px; width: 41px; height: 13px;
+.icon-car-type-business_active{ background-image: url(img/sprite.png); background-position: -235px -101px; width: 41px; height: 13px;
 }
 
 .icon-car-type-sedan{ background-image: url(img/sprite.png); background-position: -196px -217px; width: 37px; height: 13px;
@@ -64,19 +71,19 @@ section our park */
 .icon-car-type-sedan_active{ background-image: url(img/sprite.png); background-position: -233px -217px; width: 37px; height: 13px;
 }
 
-.icon-car-type-sport{ background-image: url(img/sprite.png); background-position: -169px -241px; width: 33px; height: 13px;
+.icon-car-type-sport{ background-image: url(img/sprite.png); background-position: -157px -241px; width: 33px; height: 13px;
 }
 .car-type__link:hover .icon-car-type-sport,
-.car-type__link:focus .icon-car-type-sport{ background-image: url(img/sprite.png); background-position: -136px -241px; width: 33px; height: 13px;
+.car-type__link:focus .icon-car-type-sport{ background-image: url(img/sprite.png); background-position: -190px -241px; width: 33px; height: 13px;
 }
-.icon-car-type-sport_active{ background-image: url(img/sprite.png); background-position: -136px -241px; width: 33px; height: 13px;
+.icon-car-type-sport_active{ background-image: url(img/sprite.png); background-position: -190px -241px; width: 33px; height: 13px;
 }
-.icon-car-type-outlander{ background-image: url(img/sprite.png); background-position: -161px -101px; width: 37px; height: 15px;
+.icon-car-type-outlander{ background-image: url(img/sprite.png); background-position: -198px -101px; width: 37px; height: 15px;
 }
 .car-type__link:hover .icon-car-type-outlander,
-.car-type__link:focus .icon-car-type-outlander{ background-image: url(img/sprite.png); background-position: -198px -101px; width: 37px; height: 15px;
+.car-type__link:focus .icon-car-type-outlander{ background-image: url(img/sprite.png); background-position: -161px -101px; width: 37px; height: 15px;
 }
-.icon-car-type-outlander_active{ background-image: url(img/sprite.png); background-position: -198px -101px; width: 37px; height: 15px;
+.icon-car-type-outlander_active{ background-image: url(img/sprite.png); background-position: -161px -101px; width: 37px; height: 15px;
 }
 /* index page
 section our park */
@@ -89,26 +96,26 @@ section our park */
 */
 
 /* for dropdown */
-.chosen-container-single.chosen-with-drop .chosen-single div b{ background-image: url(img/sprite.png); background-position: -288px -201px; width: 17px; height: 9px;
+.chosen-container-single.chosen-with-drop .chosen-single div b{ background-image: url(img/sprite.png); background-position: -288px -208px; width: 17px; height: 9px;
 }
-.chosen-container-single .chosen-single div b{ background-image: url(img/sprite.png); background-position: -288px -192px; width: 17px; height: 9px;
+.chosen-container-single .chosen-single div b{ background-image: url(img/sprite.png); background-position: -288px -217px; width: 17px; height: 9px;
 }
-.icon-map-pointer-red .chosen-container-single .chosen-single div b{ background-image: url(img/sprite.png); background-position: -288px -173px; width: 13px; height: 19px;
+.icon-map-pointer-red .chosen-container-single .chosen-single div b{ background-image: url(img/sprite.png); background-position: -288px -189px; width: 13px; height: 19px;
 }
 /* end for dropdown */
 
 /* default control for slider*/
 .bx-wrapper .bx-prev,
-.icon-arrow-left-big-gray{ background-image: url(img/sprite.png); background-position: -288px -63px; width: 17px; height: 31px;
+.icon-arrow-left-big-gray{ background-image: url(img/sprite.png); background-position: -288px -125px; width: 17px; height: 31px;
 }
     .bx-wrapper .bx-prev:hover,
     .icon-arrow-left-big-gray:hover{ background-image: url(img/sprite.png); background-position: -288px -32px; width: 17px; height: 31px;
     }
 .bx-wrapper .bx-next,
-.icon-arrow-right-big-gray{ background-image: url(img/sprite.png); background-position: -288px -94px; width: 17px; height: 31px;
+.icon-arrow-right-big-gray{ background-image: url(img/sprite.png); background-position: -288px -63px; width: 17px; height: 31px;
 }
     .bx-wrapper .bx-next:hover,
-    .icon-arrow-right-big-gray:hover{ background-image: url(img/sprite.png); background-position: -288px -125px; width: 17px; height: 31px;
+    .icon-arrow-right-big-gray:hover{ background-image: url(img/sprite.png); background-position: -288px -94px; width: 17px; height: 31px;
     }
 /* end default control for slider*/
 
@@ -124,20 +131,20 @@ section our park */
 
 
 
-.icon-arrow-left-small-black{ background-image: url(img/sprite.png); background-position: -296px -210px; width: 7px; height: 14px;
+.icon-arrow-left-small-black{ background-image: url(img/sprite.png); background-position: -296px -226px; width: 7px; height: 14px;
 }
-.icon-arrow-right-small-black{ background-image: url(img/sprite.png); background-position: -288px -225px; width: 7px; height: 14px;
+.icon-arrow-right-small-black{ background-image: url(img/sprite.png); background-position: -288px -241px; width: 7px; height: 14px;
 }
 
 
 
 .about-car .bx-wrapper .bx-next:before,
 .car-booking-prev .bx-wrapper .bx-prev:before,
-.icon-arrow-left-small-white{ background-image: url(img/sprite.png); background-position: -288px -210px; width: 8px; height: 15px;
+.icon-arrow-left-small-white{ background-image: url(img/sprite.png); background-position: -288px -226px; width: 8px; height: 15px;
 }
 .about-car .bx-wrapper .bx-prev:before,
 .car-booking-prev .bx-wrapper .bx-next:before,
-.icon-arrow-right-small-white{ background-image: url(img/sprite.png); background-position: -295px -225px; width: 7px; height: 14px;
+.icon-arrow-right-small-white{ background-image: url(img/sprite.png); background-position: -295px -241px; width: 7px; height: 14px;
 }
 
 

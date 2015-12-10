@@ -124,3 +124,14 @@
 .btn_pink:focus .icon-wrap{
     background-color: #C73341;
 }
+
+.btn_auth{
+    text-transform: uppercase;
+    width: 275px;
+    margin: 0 auto;
+    display: block;
+    line-height: 1.9;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}

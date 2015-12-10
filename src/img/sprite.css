@@ -68,6 +68,16 @@
 .icon-found-car{
     background: url(icons/icon-blue.png) no-repeat 0 0;
 }
+.icon-close-entrance-popup{
+    background: url(icons/close_icon.png) no-repeat 0 0;
+}
+.icon-entrance-popup{
+    background: url(icons/enter.png) no-repeat 0 0;
+}
+.icon-phone-popup{
+    background: url(icons/phone.png) no-repeat 0 0;
+}
+
 
 /* index page
 section our park */

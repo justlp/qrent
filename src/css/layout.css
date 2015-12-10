@@ -149,3 +149,8 @@ footer a:hover,
 footer a:focus{
     text-decoration: none;
 }
+
+.car-page .wrapper,
+.car-page footer{
+    min-width: 1125px;
+}

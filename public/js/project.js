@@ -108,6 +108,10 @@ $(function () {
         $(this).toggleClass('open')
     });
 
+    $('.js-entrance').on('click', function () {
+        $('.js-popup-wrap').addClass('open');
+    });
+
 
     $('.js-edit-car-order').on('click', function () {
         $('.js-popup-wrap').addClass('open');
