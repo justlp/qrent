@@ -674,7 +674,6 @@ i {
 }
 .car-list__item{
     float: left;
-    width: 488px;
     margin: 29px 26px;
     transition: all .2s;
 }
@@ -699,8 +698,7 @@ i {
     padding: 20px;
     position: relative;
     z-index: 1;
-    width: 245px;
-    /*top: -6px;*/
+    max-width: 725px;
 }
 .car-booking-prev__content:before{
     content: '';
@@ -772,6 +770,13 @@ i {
     position: absolute;
     top: center;
     left: center;
+}
+
+.car-booking-prev .car-property__item{
+    float: none;
+}
+.car-booking-prev .btn_booking{
+    width: 100%;
 }
 
 
@@ -1910,4 +1915,9 @@ i {
     border-radius: 5px;
     font-size: 20px;
     margin-bottom: 40px;
+}
+
+.no-result h1{
+    text-align: center;
+    padding: 70px 50px;
 }
