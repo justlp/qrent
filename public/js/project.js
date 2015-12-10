@@ -88,6 +88,35 @@ $(function () {
         controls: true,
         slideWidth: 237,
         infiniteLoop: false
-    })
+    });
 
+
+    
+
+    $('.js-popup-wrap').on('click', function (e) {
+       $(this).removeClass('open')
+    });
+    $('.js-popup').on('click', function (e) {
+        e.stopPropagation();
+    });
+    $('.js-popup-close').on('click', function () {
+        $('.js-popup-wrap').removeClass('open')
+    });
+
+
+    $('.js-chat').on('click', function () {
+        $(this).toggleClass('open')
+    });
+
+
+    $('.js-edit-car-order').on('click', function () {
+        $('.js-popup-wrap').addClass('open');
+        $('.js-edit-card-popup').hide();
+        $('.js-edit-car-order-popup').show();
+    });
+    $('.js-edit-card-order').on('click', function () {
+        $('.js-popup-wrap').addClass('open');
+        $('.js-edit-car-order-popup').hide();
+        $('.js-edit-card-popup').show();
+    });
 });

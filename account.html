@@ -22,7 +22,7 @@
             <a href="#"><img src="public/img/logo.png" alt="q-rent" width="152" height="52"></a>
             <div class="user-nav">
                 <div class="user-nav__item">
-                    <div class="chat open">
+                    <div class="chat js-chat">
                         <span class="chat__inbox">9</span>
                         <i class="fa fa-comments-o"></i>
                         <div class="chat__container">
@@ -130,7 +130,7 @@
                                         </div>
                                         <div class="order__subtitle">Москва</div>
 
-                                        <div class="order__status order__status_in-process">Подбор свободных авто</div>
+                                        <div class="order__status order__status_in-process"><i class="icon-find-car"></i>Подбор свободных авто</div>
 
                                         <div class="order__info">
                                             <ul class="car-property car-property_in-order car-property_no-indent">
@@ -172,8 +172,8 @@
                                         </div>
 
                                         <div class="edit-info">
-                                            <span class="edit-info__remove"><i class="icon-remove"></i></span>
-                                            <span class="edit-info__edit"><i class="icon-edit"></i></span>
+                                            <span class="edit-info__remove "><i class="icon-remove"></i></span>
+                                            <span class="edit-info__edit js-edit-car-order"><i class="icon-edit"></i></span>
                                         </div>
                                     </div>
                                 </div>
@@ -233,7 +233,7 @@
                                         </div>
                                         <div class="order__subtitle">Москва</div>
 
-                                        <div class="order__status order__status_done">Авто подобраны</div>
+                                        <div class="order__status order__status_done"><i class="icon-found-car"></i>Авто подобраны</div>
 
                                         <div class="order__info">
                                             <ul class="car-property car-property_in-order">
@@ -276,7 +276,7 @@
 
                                         <div class="edit-info">
                                             <span class="edit-info__remove"><i class="icon-remove"></i></span>
-                                            <span class="edit-info__edit"><i class="icon-edit"></i></span>
+                                            <span class="edit-info__edit js-edit-car-order"><i class="icon-edit"></i></span>
                                         </div>
                                     </div>
                                 </div>
@@ -337,7 +337,7 @@
                                         </div>
                                         <div class="order__subtitle">Москва</div>
 
-                                        <div class="order__status order__status_in-process">Подбор свободных авто</div>
+                                        <div class="order__status order__status_in-process"><i class="icon-find-car"></i>Подбор свободных авто</div>
 
                                         <div class="order__info">
                                             <ul class="car-property car-property_in-order">
@@ -380,7 +380,7 @@
 
                                         <div class="edit-info">
                                             <span class="edit-info__remove"><i class="icon-remove"></i></span>
-                                            <span class="edit-info__edit"><i class="icon-edit"></i></span>
+                                            <span class="edit-info__edit js-edit-car-order"><i class="icon-edit"></i></span>
                                         </div>
                                     </div>
                                 </div>
@@ -451,7 +451,7 @@
 
                     <div class="edit-info">
                         <span class="edit-info__remove"><i class="icon-remove"></i></span>
-                        <span class="edit-info__edit"><i class="icon-edit"></i></span>
+                        <span class="edit-info__edit js-edit-card-order"><i class="icon-edit"></i></span>
                     </div>
                 </div>
             </div>
@@ -485,7 +485,7 @@
                                     </div>
                                     <div class="order__subtitle">Москва</div>
 
-                                    <div class="order__status order__status_history">Авто подобраный</div>
+                                    <div class="order__status order__status_history"><i class="icon-add-small"></i>Авто подобраный</div>
 
                                 </div>
                             </div>
@@ -514,7 +514,7 @@
                                     </div>
                                     <div class="order__subtitle">Москва</div>
 
-                                    <div class="order__status order__status_history-red">Авто подобраный</div>
+                                    <div class="order__status order__status_history-red"><i class="icon-remove-red-bg-small"></i>Авто подобраный</div>
 
                                 </div>
                             </div>
@@ -543,7 +543,7 @@
                                     </div>
                                     <div class="order__subtitle">Москва</div>
 
-                                    <div class="order__status order__status_history-red">Авто подобраный</div>
+                                    <div class="order__status order__status_history-red"><i class="icon-remove-red-bg-small"></i>Авто подобраный</div>
 
                                 </div>
                             </div>
@@ -572,7 +572,7 @@
                                     </div>
                                     <div class="order__subtitle">Москва</div>
 
-                                    <div class="order__status order__status_history-red">Авто подобраный</div>
+                                    <div class="order__status order__status_history-red"><i class="icon-remove-red-bg-small"></i>Авто подобраный</div>
 
                                 </div>
                             </div>
@@ -616,12 +616,12 @@
 
 
 <!-- add open to  overlay-popup-->
-<div class="overlay-popup">
-    <div class="popup">
+<div class="overlay-popup js-popup-wrap">
+    <div class="popup js-popup">
         <div class="popup__inner">
             <i class="icon-remove-red-bg js-popup-close"></i>
 
-            <div class="about-car" style="display: none;">
+            <div class="about-car js-edit-car-order-popup" style="display: none;">
                 <ul class="about-car__opportunities">
                         <li>
                             <div class="about-car__item-title">Подача автомобиля:</div>
@@ -747,7 +747,7 @@
                     </ul>
             </div>
 
-            <div class="customer-id">
+            <div class="customer-id js-edit-card-popup" style="display: none;">
                 <div class="customer-id__left">
                     <div class="customer-id__title">Сторона 1</div>
                     <div class="customer-id__content credit-card">

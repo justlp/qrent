@@ -38,6 +38,9 @@
 .icon-add{
     background: url(icons/icon-add.png) no-repeat 0 0;
 }
+.icon-add-small{
+    background: url(icons/icon-add-small.png) no-repeat 0 0;
+}
 .icon-add-paginator{
     background: url(icons/icon-add-paginator.png) no-repeat 0 0;
 }
@@ -53,10 +56,18 @@
 .icon-remove-red-bg{
     background: url(icons/icon-remove-red-bg.png) no-repeat 0 0;
 }
+.icon-remove-red-bg-small{
+    background: url(icons/icon-remove-red-small.png) no-repeat 0 0;
+}
 .icon-btn-booking{
     background: url(icons/icon-btn-booking.png) no-repeat 0 0;
 }
-
+.icon-find-car{
+    background: url(icons/icon-orange.png) no-repeat 0 0;
+}
+.icon-found-car{
+    background: url(icons/icon-blue.png) no-repeat 0 0;
+}
 
 /* index page
 section our park */

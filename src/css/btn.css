@@ -116,3 +116,11 @@
 .btn_pink .icon-wrap{
     background-color: #e73849;
 }
+.btn_pink:hover,
+.btn_pink:focus{
+    background-color: #C73341;
+}
+.btn_pink:hover .icon-wrap,
+.btn_pink:focus .icon-wrap{
+    background-color: #C73341;
+}

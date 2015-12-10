@@ -905,6 +905,7 @@ i {
     width: 435px;
     left: -35px;
     bottom: -29px;
+    box-shadow: 0 7px 18px rgba(0,0,0, 0.25);
 }
 .about-car .bx-wrapper .bx-next{
     left: 0;
@@ -922,10 +923,15 @@ i {
     height: 75px;
     top: 0;
     position: absolute;
-
     margin: 0;
     background-image: none;
+    transition: all .3s;
 }
+.about-car .bx-wrapper .bx-next:hover,
+.about-car .bx-wrapper .bx-prev:hover{
+    background-color: #131313;
+}
+
 .about-car .bx-wrapper .bx-next.disabled,
 .about-car .bx-wrapper .bx-prev.disabled{
     background-color: #191919;
@@ -937,6 +943,12 @@ i {
     position: absolute;
     top: center;
     left: center;
+    opacity: 1;
+    transition: all .3s;
+}
+.about-car .bx-wrapper .bx-next:hover:before,
+.about-car .bx-wrapper .bx-prev:hover:before{
+    opacity: 0.7;
 }
 
 
@@ -1065,6 +1077,10 @@ i {
     vertical-align: middle;
     margin-left: 10px;
     cursor: pointer;
+    transition: all .2s;
+}
+.checker__inner:hover{
+    background-color: #e4e4e4;
 }
 .checker__btn{
     position: absolute;
@@ -1077,8 +1093,13 @@ i {
     vertical-align: middle;
     background-color: #E3374B;
 }
+
+
 .checker__inner.checked{
     background-color: #81879F;
+}
+.checker__inner.checked:hover{
+    background-color: #6f758c;
 }
 .checker__inner.checked .checker__btn{
     right: auto;
@@ -1295,8 +1316,16 @@ i {
     margin-top: 6px;
 }
 .order__status{
+    position: relative;
     font-weight: 700;
     font-size: 13px;
+    padding-left: 25px;
+    line-height: 1.6;
+}
+.order__status i{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .order__status_in-process{
     color: #F6A645;
@@ -1351,7 +1380,7 @@ i {
 }
 .order_in-popup .order__car-img{
     position: static;
-    margin: -15px auto 15px;
+    margin: -20px auto 20px;
     text-align: center;
 
 }
@@ -1388,8 +1417,16 @@ i {
 .edit-info__remove{
     background-color: #e73849;
 }
+.edit-info__remove:hover,
+.edit-info__remove:focus{
+    background-color: #c13849;
+}
 .edit-info__edit{
     background-color: #db3545;
+}
+.edit-info__edit:hover,
+.edit-info__edit:focus{
+    background-color: #bd2e3c;
 }
 .edit-info__remove i,
 .edit-info__edit i{
@@ -1434,6 +1471,7 @@ i {
     width: 855px;
     height: 190px;
     margin-bottom: 85px;
+    box-shadow: 0 15px 46px rgba(0,0,0,0.6);
 }
 .customer-id__left,
 .customer-id__center,
@@ -1688,6 +1726,11 @@ i {
 .chat.open .fa-comments-o{
     background-color: #fff;
     color: #4A5477;
+}
+.chat.open .fa-comments-o:hover,
+.chat.open .fa-comments-o:focus{
+    background: transparent;
+    color: #fff;
 }
 .chat__container{
     display: none;
